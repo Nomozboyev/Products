@@ -1,0 +1,10 @@
+@use "../../styles/main.scss";
+@use "../../styles/basis";
+@use "../../styles/varaibles";
+.home {
+  width: 100%;
+  min-height: 548px;
+  padding: 30px 5px 17px;
+  background: #ffffff;
+  border-radius:10px;
+}

@@ -1,0 +1,30 @@
+@use "../../../styles/basis";
+@use "../../../styles/varaibles";
+@use "../../../styles/main.scss";
+
+.noProduct {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 64px;
+  }
+  img {
+    margin-bottom: 66px;
+    width: 313px;
+    height: 235px;
+  }
+  .newProduct {
+    padding: 24px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    background-color: #1bc58d;
+  }
+}

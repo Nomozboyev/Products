@@ -1,0 +1,24 @@
+ @use "../../styles/main.scss";
+@use "../../styles/basis";
+@use "../../styles/varaibles";
+ .breadcrumbsBox {
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 13px;
+    opacity: 0.5;
+  }
+}
+.loginBtn {
+  button {
+    padding: 10px 10px;
+    border: none;
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    background-color: #F7F7FF;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,20 @@
+.loginContainer{  width: 100%;
+  min-height: 548px;
+  padding: 30px 5px 17px;
+  background: #ffffff;
+  border-radius:10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  .formBox{
+     display: flex;
+  justify-content: center;
+  align-items:center;
+     max-width: 764px;
+    max-height: 554px;
+      border: 1px solid #f2f2f2;
+      border-radius: 5px;
+       padding: 40px;
+
+  }
+ }

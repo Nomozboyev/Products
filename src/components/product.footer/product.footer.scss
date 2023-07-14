@@ -1,0 +1,40 @@
+.productsFooter {
+  width: 100%;
+}
+.addProductBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1bc58d;
+  font-weight: 800;
+  color: white;
+  border-radius: 8px;
+  // display: flex;
+  // justify-content: center;
+  // align-items:center;
+}
+.CancelBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f7f7ff;
+  font-weight: 800;
+  color: #80809b;
+  border-radius: 8px;
+}
+.CancelBtn:hover,
+.SaveBtn:hover {
+  transform: scale(1.1);
+}
+
+.back_to_main{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #f7f7ff;
+  margin-bottom: 15px;
+  font-weight: 800;
+  color: #80809b;
+  border-radius: 8px;
+}
+.back_to_main:hover{
+    
+  transform: scale(1.1);
+}
